@@ -12,7 +12,7 @@ namespace BlizzardNet.Tests
         public static async Task Main(string[] args)
         {
             // Arrange
-            var client = new Client("8157ed6b1b664e7b8fea101c82faa73b", "JNdAhhWI4vXm8hUsR2EgDGJ8glrvHzMU", "eu", "fr_FR");
+            var client = new Client("CLINET_ID", "CLIENT_SECRET", "eu", "fr_FR");
             
             // Act
             Link.Locale = "fr_FR";
