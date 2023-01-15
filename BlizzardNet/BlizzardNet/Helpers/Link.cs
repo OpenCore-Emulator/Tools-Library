@@ -33,92 +33,92 @@ namespace BlizzardNet.Helpers
         /// Achievement links
         /// </summary>
         /// <returns></returns>
-        public static string AchievementCategoriesIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/achievement-category/index";
-        public static string AchievementCategory(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/achievement-category/{id}";
-        public static string AchievementIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/achievement/index";
-        public static string Achievement(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/achievement/{id}";
-        public static string AchievementMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/achievement/{id}";
+        public static string AchievementCategoriesIndex() => $"{RegionLink(Region)}/data/wow/achievement-category/index?namespace=static-{Region}&locale={Locale}";
+        public static string AchievementCategory(int id) => $"{RegionLink(Region)}/data/wow/achievement-category/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string AchievementIndex() => $"{RegionLink(Region)}/data/wow/achievement/index?namespace=static-{Region}&locale={Locale}";
+        public static string Achievement(int id) => $"{RegionLink(Region)}/data/wow/achievement/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string AchievementMedia(int id) => $"{RegionLink(Region)}/data/wow/media/achievement/{id}?namespace=static-{Region}&locale={Locale}";
         
         /// <summary>
         /// Azerite Essence links
         /// </summary>
         /// <returns></returns>
-        public static string AzeriteEssenceIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/azerite-essence/index";
-        public static string AzeriteEssence(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/azerite-essence/{id}";
-        public static string AzeriteEssenceSearch(string name) => $"{RegionLink(Region)}/{Locale}/data/wow/search/azerite-essence?name.{name}";
-        public static string AzeriteEssenceMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/azerite-essence/{id}";
+        public static string AzeriteEssenceIndex() => $"{RegionLink(Region)}/data/wow/azerite-essence/index?namespace=static-{Region}&locale={Locale}";
+        public static string AzeriteEssence(int id) => $"{RegionLink(Region)}/data/wow/azerite-essence/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string AzeriteEssenceSearch(string name) => $"{RegionLink(Region)}/data/wow/search/azerite-essence?name.{name}?namespace=static-{Region}&locale={Locale}";
+        public static string AzeriteEssenceMedia(int id) => $"{RegionLink(Region)}/data/wow/media/azerite-essence/{id}?namespace=static-{Region}&locale={Locale}";
         
         /// <summary>
         /// Covenant links
         /// </summary>
         /// <returns></returns>
-        public static string CovenantIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/covenant/index";
-        public static string Covenant(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/covenant/{id}";
-        public static string CovenantMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/covenant/{id}";
-        public static string SoulbindIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/soulbind/index";
-        public static string Soulbind(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/soulbind/{id}";
-        public static string ConduitIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/conduit/index";
-        public static string Conduit(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/conduit/{id}";
+        public static string CovenantIndex() => $"{RegionLink(Region)}/data/wow/covenant/index?namespace=static-{Region}&locale={Locale}";
+        public static string Covenant(int id) => $"{RegionLink(Region)}/data/wow/covenant/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string CovenantMedia(int id) => $"{RegionLink(Region)}/data/wow/media/covenant/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string SoulbindIndex() => $"{RegionLink(Region)}/data/wow/soulbind/index?namespace=static-{Region}&locale={Locale}";
+        public static string Soulbind(int id) => $"{RegionLink(Region)}/data/wow/soulbind/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string ConduitIndex() => $"{RegionLink(Region)}/data/wow/conduit/index?namespace=static-{Region}&locale={Locale}";
+        public static string Conduit(int id) => $"{RegionLink(Region)}/data/wow/conduit/{id}?namespace=static-{Region}&locale={Locale}";
         
         /// <summary>
         /// Creature links
         /// </summary>
         /// <returns></returns>
-        public static string CreatureFamiliesIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/creature-family/index";
-        public static string CreatureFamily(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/creature-family/{id}";
-        public static string CreatureTypesIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/creature-type/index";
-        public static string CreatureType(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/creature-type/{id}";
-        public static string Creature(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/creature/{id}";
-        public static string CreatureSearch(string name) => $"{RegionLink(Region)}/{Locale}/data/wow/search/creature?name.{name}";
-        public static string CreatureDisplayMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/creature-display/{id}";
-        public static string CreatureFamilyMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/creature-family/{id}";
+        public static string CreatureFamiliesIndex() => $"{RegionLink(Region)}/data/wow/creature-family/index?namespace=static-{Region}&locale={Locale}";
+        public static string CreatureFamily(int id) => $"{RegionLink(Region)}/data/wow/creature-family/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string CreatureTypesIndex() => $"{RegionLink(Region)}/data/wow/creature-type/index?namespace=static-{Region}&locale={Locale}";
+        public static string CreatureType(int id) => $"{RegionLink(Region)}/data/wow/creature-type/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string Creature(int id) => $"{RegionLink(Region)}/data/wow/creature/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string CreatureSearch(string name) => $"{RegionLink(Region)}/data/wow/search/creature?name.{name}?namespace=static-{Region}&locale={Locale}";
+        public static string CreatureDisplayMedia(int id) => $"{RegionLink(Region)}/data/wow/media/creature-display/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string CreatureFamilyMedia(int id) => $"{RegionLink(Region)}/data/wow/media/creature-family/{id}?namespace=static-{Region}&locale={Locale}";
         
         /// <summary>
         /// Guild Crest links
         /// </summary>
         /// <returns></returns>
-        public static string GuildCrestComponentsIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/guild-crest/index";
-        public static string GuildCrestBorderMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/guild-crest/border/{id}";
-        public static string GuildCrestEmblemMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/guild-crest/emblem/{id}";
+        public static string GuildCrestComponentsIndex() => $"{RegionLink(Region)}/data/wow/guild-crest/index?namespace=static-{Region}&locale={Locale}";
+        public static string GuildCrestBorderMedia(int id) => $"{RegionLink(Region)}/data/wow/media/guild-crest/border/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string GuildCrestEmblemMedia(int id) => $"{RegionLink(Region)}/data/wow/media/guild-crest/emblem/{id}?namespace=static-{Region}&locale={Locale}";
         
         /// <summary>
         /// Item links
         /// </summary>
         /// <returns></returns>
-        public static string ItemClassesIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/item-class/index";
-        public static string ItemClass(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/item-class/{id}";
-        public static string ItemSetsIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/item-set/index";
-        public static string ItemSet(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/item-set/{id}";
-        public static string ItemSubClass(int classId, int subClassId) => $"{RegionLink(Region)}/{Locale}/data/wow/item-class/{classId}/item-subclass/{subClassId}";
-        public static string Item(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/item/{id}";
-        public static string ItemMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/item/{id}";
-        public static string ItemSearch(string name) => $"{RegionLink(Region)}/{Locale}/data/wow/search/item?name.{name}";
+        public static string ItemClassesIndex() => $"{RegionLink(Region)}/data/wow/item-class/index?namespace=static-{Region}&locale={Locale}";
+        public static string ItemClass(int id) => $"{RegionLink(Region)}/data/wow/item-class/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string ItemSetsIndex() => $"{RegionLink(Region)}/data/wow/item-set/index?namespace=static-{Region}&locale={Locale}";
+        public static string ItemSet(int id) => $"{RegionLink(Region)}/data/wow/item-set/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string ItemSubClass(int classId, int subClassId) => $"{RegionLink(Region)}/data/wow/item-class/{classId}/item-subclass/{subClassId}?namespace=static-{Region}&locale={Locale}";
+        public static string Item(int id) => $"{RegionLink(Region)}/data/wow/item/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string ItemMedia(int id) => $"{RegionLink(Region)}/data/wow/media/item/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string ItemSearch(string name) => $"{RegionLink(Region)}/data/wow/search/item?name.{name}?namespace=static-{Region}&locale={Locale}";
         
         /// <summary>
         /// Journal links
         /// </summary>
         /// <returns></returns>
-        public static string JournalExpansionsIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/journal-expansion/index";
-        public static string JournalExpansion(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/journal-expansion/{id}";
-        public static string JournalEncountersIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/journal-encounter/index";
-        public static string JournalEncounter(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/journal-encounter/{id}";
-        public static string JournalEncounterSearch(string name) => $"{RegionLink(Region)}/{Locale}/data/wow/search/journal-encounter?name.{name}";
-        public static string JournalInstancesIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/journal-instance/index";
-        public static string JournalInstance(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/journal-instance/{id}";
-        public static string JournalInstanceMedia(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/media/journal-instance/{id}";
+        public static string JournalExpansionsIndex() => $"{RegionLink(Region)}/data/wow/journal-expansion/index?namespace=static-{Region}&locale={Locale}";
+        public static string JournalExpansion(int id) => $"{RegionLink(Region)}/data/wow/journal-expansion/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string JournalEncountersIndex() => $"{RegionLink(Region)}/data/wow/journal-encounter/index?namespace=static-{Region}&locale={Locale}";
+        public static string JournalEncounter(int id) => $"{RegionLink(Region)}/data/wow/journal-encounter/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string JournalEncounterSearch(string name) => $"{RegionLink(Region)}/data/wow/search/journal-encounter?name.{name}?namespace=static-{Region}&locale={Locale}";
+        public static string JournalInstancesIndex() => $"{RegionLink(Region)}/data/wow/journal-instance/index?namespace=static-{Region}&locale={Locale}";
+        public static string JournalInstance(int id) => $"{RegionLink(Region)}/data/wow/journal-instance/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string JournalInstanceMedia(int id) => $"{RegionLink(Region)}/data/wow/media/journal-instance/{id}?namespace=static-{Region}&locale={Locale}";
 
         
         /// <summary>
         /// Quest links
         /// </summary>
         /// <returns></returns>
-        public static string QuestIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/quest/index";
+        public static string QuestIndex() => $"{RegionLink(Region)}/data/wow/quest/index?namespace=static-{Region}&locale={Locale}";
         public static string Quest(int id) => $"{RegionLink(Region)}/data/wow/quest/{id}?namespace=static-{Region}&locale={Locale}";
-        public static string QuestCategoriesIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/quest/category/index";
-        public static string QuestCategory(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/quest/category/{id}";
+        public static string QuestCategoriesIndex() => $"{RegionLink(Region)}/data/wow/quest/category/index?namespace=static-{Region}&locale={Locale}";
+        public static string QuestCategory(int id) => $"{RegionLink(Region)}/data/wow/quest/category/{id}?namespace=static-{Region}&locale={Locale}";
         public static string QuestAreasIndex() => $"{RegionLink(Region)}/data/wow/quest/area/index?namespace=static-{Region}&locale={Locale}";
         public static string QuestArea(int id) => $"{RegionLink(Region)}/data/wow/quest/area/{id}?namespace=static-{Region}&locale={Locale}";
-        public static string QuestTypeIndex() => $"{RegionLink(Region)}/{Locale}/data/wow/quest/type/index";
-        public static string QuestType(int id) => $"{RegionLink(Region)}/{Locale}/data/wow/quest/type/{id}";
+        public static string QuestTypeIndex() => $"{RegionLink(Region)}/data/wow/quest/type/index?namespace=static-{Region}&locale={Locale}";
+        public static string QuestType(int id) => $"{RegionLink(Region)}/data/wow/quest/type/{id}?namespace=static-{Region}&locale={Locale}";
     }
 }

@@ -72,5 +72,22 @@ namespace BlizzardNet.Tests.Helpers
             // Assert
             Assert.IsNotNull(quests);
         }
+        
+        [Test]
+        [TestCase("f3d85962eefa4f4e8202cffff20ae035", "nYJt7ME00kzXIsxbX0zG3mF2A8z40O98", "eu", "fr_FR", 39)]
+        public async Task GetAllItems(string clientID, string clientSecret, string region, string locale, int itemId)
+        {
+            // Arrange
+            var client = new Client(clientID, clientSecret, region, locale);
+            
+            // Act
+            Link.Locale = locale;
+            Link.Region = region;
+            
+            Item item = await client.Get<Item>(Link.Item(itemId));
+            
+            // Assert
+            Assert.IsNotNull(item);
+        }
     }
 }

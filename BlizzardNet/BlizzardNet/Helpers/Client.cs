@@ -84,21 +84,7 @@ namespace BlizzardNet.Helpers
                 
                 // Read the response
                 string responseString = await response.Content.ReadAsStringAsync();
-                
-                Console.WriteLine(responseString);
                 T result = JsonSerializer.Deserialize<T>(responseString);
-
-                if (typeof(T) == typeof(Quest))
-                {
-                    Quest quest = result as Quest;
-                    using (StreamWriter writer = new StreamWriter(Environment.CurrentDirectory + $"\\quests\\quest-{quest.id}.txt"))
-                    {
-                        writer.WriteLine($"Title : {quest?.title}");
-                        writer.WriteLine($"Description : {quest?.description}");
-                        writer.WriteLine($"Rewards : {quest?.rewards?.experience}, {quest?.rewards?.reputations?.Select(obj => obj?.value)}, {quest?.rewards?.money?.value}");
-                        writer.WriteLine($"Description : {quest?.requirements?.faction?.name}, {quest?.requirements?.max_character_level}, {quest?.requirements?.min_character_level}");
-                    }
-                }
 
                 return result;
             }
