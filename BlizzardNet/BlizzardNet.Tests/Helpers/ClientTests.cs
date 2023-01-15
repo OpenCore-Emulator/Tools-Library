@@ -67,7 +67,7 @@ namespace BlizzardNet.Tests.Helpers
             
             QuestAreasIndex questArea = await client.Get<QuestAreasIndex>(Link.QuestAreasIndex());
             
-            List<QuestArea> quests = questArea.areas.Select(areas => client.Get<QuestArea>(Link.QuestArea(areas.id)).Result).ToList();
+            List<QuestArea> quests = questArea.areas.Select(areas => client.Get<QuestArea>(Link.QuestArea(areas.Id)).Result).ToList();
             
             // Assert
             Assert.IsNotNull(quests);

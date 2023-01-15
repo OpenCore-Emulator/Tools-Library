@@ -116,12 +116,29 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Entities\Area.cs" />
+        <Compile Include="Entities\AttackSpeed.cs" />
+        <Compile Include="Entities\Binding.cs" />
         <Compile Include="Entities\BlizzardGeneric\Key.cs" />
         <Compile Include="Entities\BlizzardGeneric\Links.cs" />
+        <Compile Include="Entities\BlizzardGeneric\Media.cs" />
         <Compile Include="Entities\BlizzardGeneric\Self.cs" />
         <Compile Include="Entities\BlizzardToken.cs" />
+        <Compile Include="Entities\Color.cs" />
+        <Compile Include="Entities\Damage.cs" />
+        <Compile Include="Entities\DamageClass.cs" />
+        <Compile Include="Entities\Display.cs" />
+        <Compile Include="Entities\DisplayStrings.cs" />
+        <Compile Include="Entities\Dps.cs" />
+        <Compile Include="Entities\Durability.cs" />
         <Compile Include="Entities\Faction.cs" />
+        <Compile Include="Entities\InventoryType.cs" />
+        <Compile Include="Entities\Item.cs" />
+        <Compile Include="Entities\ItemClass.cs" />
+        <Compile Include="Entities\ItemSubClass.cs" />
+        <Compile Include="Entities\Level.cs" />
         <Compile Include="Entities\Money.cs" />
+        <Compile Include="Entities\PreviewItem.cs" />
+        <Compile Include="Entities\Quality.cs" />
         <Compile Include="Entities\Quest.cs" />
         <Compile Include="Entities\QuestArea.cs" />
         <Compile Include="Entities\QuestAreasIndex.cs" />
@@ -129,7 +146,13 @@
         <Compile Include="Entities\Requirements.cs" />
         <Compile Include="Entities\Reward.cs" />
         <Compile Include="Entities\Rewards.cs" />
+        <Compile Include="Entities\SellPrice.cs" />
+        <Compile Include="Entities\Spell.cs" />
+        <Compile Include="Entities\Spell2.cs" />
+        <Compile Include="Entities\Stat.cs" />
+        <Compile Include="Entities\Type.cs" />
         <Compile Include="Entities\Units.cs" />
+        <Compile Include="Entities\Weapon.cs" />
         <Compile Include="Helpers\Client.cs" />
         <Compile Include="Helpers\Link.cs" />
         <Compile Include="Helpers\Persistence.cs" />
@@ -138,9 +161,6 @@
     <ItemGroup>
       <None Include="App.config" />
       <None Include="packages.config" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Entities\Persistence" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
