@@ -15,9 +15,9 @@ namespace BlizzardNet.Entities
         public int B { get; set; }
         
         [JsonPropertyName("a")]
-        public int A { get; set; }
+        public float A { get; set; }
 
-        public Tuple<int, int, int, int> Rgba() => new Tuple<int, int, int, int>(R, G, B, A);
+        public Tuple<int, int, int, float> Rgba() => new Tuple<int, int, int, float>(R, G, B, A);
 
     }
 }

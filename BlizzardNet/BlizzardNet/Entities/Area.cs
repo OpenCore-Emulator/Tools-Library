@@ -5,13 +5,8 @@ namespace BlizzardNet.Entities
 {
     public class Area
     {
-        [JsonPropertyName("key")]
-        public Key Key { get; set; }
-        
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
-        
-        [JsonPropertyName("id")]
-        public int Id { get; set; }
+        [JsonPropertyName("key")] public Key Key { get; set; }
+        [JsonPropertyName("name")] public string Name { get; set; }
+        [JsonPropertyName("id")] public int Id { get; set; }
     }
 }

@@ -91,6 +91,8 @@ namespace BlizzardNet.Helpers
         public static string ItemSet(int id) => $"{RegionLink(Region)}/data/wow/item-set/{id}?namespace=static-{Region}&locale={Locale}";
         public static string ItemSubClass(int classId, int subClassId) => $"{RegionLink(Region)}/data/wow/item-class/{classId}/item-subclass/{subClassId}?namespace=static-{Region}&locale={Locale}";
         public static string Item(int id) => $"{RegionLink(Region)}/data/wow/item/{id}?namespace=static-{Region}&locale={Locale}";
+        public static string ItemIndex() => $"{RegionLink(Region)}/data/wow/item/?namespace=static-{Region}&locale={Locale}";
+        public static string ItemByName(string name) => $"{RegionLink(Region)}/data/wow/search/item?namespace=static-{Region}&name.{Locale}={name}locale={Locale}";
         public static string ItemMedia(int id) => $"{RegionLink(Region)}/data/wow/media/item/{id}?namespace=static-{Region}&locale={Locale}";
         public static string ItemSearch(string name) => $"{RegionLink(Region)}/data/wow/search/item?name.{name}?namespace=static-{Region}&locale={Locale}";
         

@@ -27,9 +27,18 @@
     &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GetAllItems&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=faa2e083_002D0418_002D4db0_002D8ceb_002D34e4b64df6cc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;BlizzardNet.Tests&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=faa2e083_002D0418_002D4db0_002D8ceb_002D34e4b64df6cc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;BlizzardNet.Tests&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GetAllItems&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GenerateBlizzardToken_IsNotNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GetItem&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc3f22d7_002Dc1d7_002D4213_002D813d_002Dae19e5914a4b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GetAllItems&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GenerateBlizzardToken_IsNotNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8603EDAA-BDA6-444B-A655-714F25DC7479::.NETFramework,Version=v4.8.1::BlizzardNet.Tests.Helpers.ClientTests.GetItem&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
